@@ -10,7 +10,7 @@ void PrintColorRefrence(int * MajorColorIdx)
    lMajorColorIdx = *MajorColorIdx;
    for( lMinorColorIdx = 0; lMinorColorIdx < numberOfMinorColors; lMinorColorIdx++ )
    {
-       printf( "%d\t            %s            %s\t\n",pairNumber, MajorColorNames[lMajorColorIdx], MinorColorNames[lMinorColorIdx]);
+       printf( "%d\t             %s\t            %s\t\n",pairNumber, MajorColorNames[lMajorColorIdx], MinorColorNames[lMinorColorIdx]);
        pairNumber++;
    }
 }
@@ -19,7 +19,7 @@ void ColorCatalogue()
 {
   int lMajorColorIdx;
   
-  printf(" PairNumber            MajorColor         MinorColor \n");
+  printf("PairNumber         MajorColor         MinorColor \n");
   
   for( lMajorColorIdx = 0; lMajorColorIdx < numberOfMajorColors; lMajorColorIdx++ )
   {
