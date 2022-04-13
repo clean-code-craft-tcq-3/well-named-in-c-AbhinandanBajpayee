@@ -15,7 +15,7 @@ void ColorCatalogue()
   {
      for( lMinorColorIdx = 0; lMinorColorIdx < numberOfMajorColors; lMinorColorIdx++ )
      {
-         printf( "%s\t %s\t %d", MajorColorNames[lMajorColorIdx], MinorColorNames[lMinorColorIdx], colorCode );
+         printf( " %s\t       %s\t              %d\n", MajorColorNames[lMajorColorIdx], MinorColorNames[lMinorColorIdx], colorCode );
          colorCode++;
      }
   }
