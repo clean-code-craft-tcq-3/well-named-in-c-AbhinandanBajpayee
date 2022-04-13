@@ -1,4 +1,4 @@
-#include "Color.h
+#include "Color.h"
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 const char* MajorColorNames[] = {
