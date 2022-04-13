@@ -19,7 +19,7 @@ void ColorCatalogue()
 {
   int lMajorColorIdx;
   
-  printf("PairNumber         MajorColor         MinorColor \n");
+  printf("PairNumber         MajorColor      MinorColor \n");
   
   for( lMajorColorIdx = 0; lMajorColorIdx < numberOfMajorColors; lMajorColorIdx++ )
   {
