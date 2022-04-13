@@ -10,6 +10,6 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
     
     ColorCatalogue();
-
+    
     return 0;
 }
