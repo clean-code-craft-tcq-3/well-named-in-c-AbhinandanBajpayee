@@ -5,7 +5,6 @@
 void PrintColorRefrence(int * MajorColorIdx)
 {
    int lMajorColorIdx;
-   int pairNumber = 1;
    int lMinorColorIdx =0;
    
    lMajorColorIdx = *MajorColorIdx;
