@@ -13,7 +13,7 @@ void ColorCatalogue()
   
   for( lMajorColorIdx = 0; lMajorColorIdx < numberOfMajorColors; lMajorColorIdx++ )
   {
-     for( lMinorColorIdx = 0; lMinorColorIdx < numberOfMajorColors; lMinorColorIdx++ )
+     for( lMinorColorIdx = 0; lMinorColorIdx < numberOfMinorColors; lMinorColorIdx++ )
      {
          printf( " %s\t       %s\t              %d\n", MajorColorNames[lMajorColorIdx], MinorColorNames[lMinorColorIdx], colorCode );
          colorCode++;
