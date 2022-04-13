@@ -3,14 +3,12 @@
 #include "Color.h"
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
-    return colorPair->majorColor * numberOfMinorColors +
-            colorPair->minorColor + 1;
+    return colorPair->majorColor * numberOfMinorColors + colorPair->minorColor + 1;
 }
 
-void testPairToNumber(
-    enum MajorColor major,
-    enum MinorColor minor,
-    int expectedPairNumber)
+void testPairToNumber(enum MajorColor major,
+                      enum MinorColor minor,
+                      int expectedPairNumber)
 {
     ColorPair colorPair;
     colorPair.majorColor = major;
