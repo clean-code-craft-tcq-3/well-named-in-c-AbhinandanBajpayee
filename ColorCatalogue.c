@@ -2,21 +2,27 @@
 #include <assert.h>
 #include "Color.h"
 
+void PrintColorRefrence(int * MajorColorIdx)
+{
+   int lMinorColorIdx;
+   int lMajorColorIdx;
+   lMajorColorIdx = *MajorColorIdx;
+   for( lMinorColorIdx = 0; lMinorColorIdx < numberOfMinorColors; lMinorColorIdx++ )
+   {
+       printf( "%d\t            %s            %s\t\n",pairNumber, MajorColorNames[lMajorColorIdx], MinorColorNames[lMinorColorIdx]);
+       pairNumber++;
+   }
+}
 
 void ColorCatalogue()
 {
-  int colorCode = 1;
+  int pairNumber = 1;
   int lMajorColorIdx;
-  int lMinorColorIdx;
   
-  printf(" MajorColor         MinorColor        ColorCode  \n");
+  printf(" PairNumber            MajorColor         MinorColor \n");
   
   for( lMajorColorIdx = 0; lMajorColorIdx < numberOfMajorColors; lMajorColorIdx++ )
   {
-     for( lMinorColorIdx = 0; lMinorColorIdx < numberOfMinorColors; lMinorColorIdx++ )
-     {
-         printf( " %s\t          %s\t              %d\t\n", MajorColorNames[lMajorColorIdx], MinorColorNames[lMinorColorIdx], colorCode );
-         colorCode++;
-     }
+     PrintColorRefrence(&lMajorColorIdx);
   }
 }
