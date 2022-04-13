@@ -9,6 +9,7 @@ extern const char* MajorColorNames[];
 extern  int numberOfMajorColors;
 extern  const char* MinorColorNames[];
 extern  int numberOfMinorColors;
+extern   int pairNumber;
 
 typedef struct {
     enum MajorColor majorColor;
