@@ -25,4 +25,6 @@ void testNumberToPair(int pairNumber, enum MajorColor expectedMajor,enum MinorCo
 
 void testPairToNumber( enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
 
+void ColorCatalogue();
+
 #endif
